@@ -5,6 +5,11 @@
     min-width: 100vw;
     min-height: 100vh;
 } */
+@font-face {
+    font-family:'BIZ UDPMincho', serif !important;
+    src: url('../Fonts/UDPMincho.ttf') format('truetype') !important;
+}
+
 /* HEADER*/
 .logo {
     margin-left: 90px;
@@ -192,4 +197,10 @@ a {
     border-top: 1px solid black;
     height: 200px;
     
+}
+
+.scroll {
+    background-color: white;
+    box-shadow: 0px 1px 0px 0px rgb(39, 39, 39);
+    opacity: 1;
 }
